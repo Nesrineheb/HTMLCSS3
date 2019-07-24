@@ -1,0 +1,172 @@
+  <!DOCTYPE html>
+<html lang="fr-FR" >
+ <head>
+<title> Bienvenue sur mon site</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, iniial-scale=1.0">
+<meta name="description" content="Pour me contacter">
+<link rel="stylesheet"    href="style.css">	 
+</head>
+<body>
+	<header> 
+    <div class="tete">
+      <img src=" img et video\entete.jpg "> 
+    </div>
+	</header>
+	<nav>
+		 <div class="table">
+			<ul>
+				<li class="menu-ind">
+					<a href="index.html">Accueil</a>
+				</li>
+				<li class="menu-vil" >
+					<a href=" MON cv.html">Mon Cv</a>
+
+				</li>
+				<li class="menu-pro">
+					<a href=" Ma ville.html ">Ma Ville</a>
+				</li>
+				 
+					<li  class="menu-cv">
+						<a href="Mes Projets.html ">  Mes Projets </a>
+				    </li>
+					<li class="menu-con">
+						<a href="contact.html">Contactez-moi!</a>
+					</li>
+							 
+			</ul>
+		</div>
+	</nav>
+   
+  <article>
+  <section class="rouge">
+  <h1>Formulaire: </h1>
+  <div class="sec">
+    <form  action="exemple7-14.php" method="post" enctype="multipart/form-data">
+    <div class="left">
+      <!-- Premier groupe de composants-->
+      <fieldset class="form_demo">
+        <legend><b>Vos coordonnées</b></legend>
+        <label>Nom                 :</label>
+        <input class="inputbasic" type="text" name="nom" size="20" maxlength="256" placeholder="votre nom"  /><br />
+        <label>Prénom              :</label>
+        <input class="inputbasic" type="text" name="prenom" size="20" maxlength="256" placeholder="votre prénom" /><br />
+        <label>Date de naissance   :</label>
+        <input class="inputbasic" type="date" name="date" max="2008-01-01"/><br />
+        <label>Mail                :</label>
+        <input class="inputbasic" type="email" name="mail" size="20" maxlength="256" placeholder="votre mail" /><br />
+        <label>Numéro de téléphone :</label>
+        <input class="inputbasic" type="tel"  maxlength="256" size="20" placeholder="votre numéro de téléphone" /><br />
+        <label>Votre site          :</label>
+        <input class="inputbasic" type="url" name="site" size="20" value="http://www." /><br />
+        <label>Fax                 :</label>
+        <input class="inputbasic" type="text"  maxlength="256" size="20" placeholder="votre Fax" /><br />
+        <label>Statut              :</label>
+        <input class="inputbasic" type="text"  maxlength="256" size="20" placeholder="votre profession" /><br />
+        <label> Sexe:</label><br />
+        <input type="radio" name="sexe" value="homme" /><label>Homme</label> <br />
+        <input type="radio" name="sexe" value="femme" /><label>Femme</label> <br />
+        
+        <select name="pays" size="1" tabindex="2" >
+          <option value="null" disabled="disabled" selected="selected"> Votre pays</option>
+          <optgroup label="Europe">
+            <option value="France" > France</option>
+            <option value="Belgique" > Belgique</option>
+            <option value="Italie" > Italie</option>
+            <option value="Allemagne" > Allemagne</option>
+            <option value="Norvege" > Norvege</option>
+            <option value="Suede" > suede</option>
+            <option value="Angleterre" > Angleterre</option>
+            <option value="Portugal" > Portugal</option>
+            <option value="Espagne" > Espagne</option>
+            <option value="Suisse" > Suisse</option>
+          </optgroup>
+          <optgroup label="Afrique">
+            <option value="Algerie" > Algerie</option>
+            <option value="Tunisie" > Tunisie</option>
+            <option value="Maroc" > Maroc</option>
+            <option value="Libie" > Libie</option>
+            <option value="Moretanie" > Moretanie</option>
+            <option value="Mali" > Mali</option>
+            <option value="Nijer"> Nijer</option>
+          </optgroup>
+          <optgroup label="Amérique">
+            <option value="USA" > USA </option>
+            <option value="Canada" > Canada</option>
+            <option value="Argentine" > Argentine</option>
+            <option value="Brezil"> Brezil</option>
+            <option value="Mexique"> Mexique</option>
+          </optgroup>
+          <optgroup label="Asie">
+            <option value="Turquie"> Turquie</option>
+            <option value="Indonésie"> Indonésie</option>
+            <option value="Chine"> Chine</option>
+            <option value="Corée"> Corée</option>
+            <option value="Japon"> Japon</option>
+            <option value="Russie"> Russie</option>
+            <option value="Inde"> Inde</option>
+          </optgroup>
+          <optgroup label="Autres">
+            <option value="Europe"  > Europe </option>
+            <option value="Asie"  > Asie </option>
+            <option value="Amériques"  > Amériques </option>
+            <option value="Océanie" > Océanie</option>
+            <option value="Afrique" > Afrique</option>
+          </optgroup>
+        </select><br />
+      </fieldset>
+    </div> 
+    <div class="right">
+      <!--premiere partie du composant-->
+      <fieldset>
+        <legend><b>Curiosité ;)</b></legend>
+        <label> Etes-vous interessés par le domaine informatique:</label><br />
+          <input type="radio" name="hobbies" value="oui" /><label>oui</label> <br />
+          <input type="radio" name="hobbies" value="non" /><label>non</label> <br /> 
+        <label> Si oui est-ce un loisir ou c'est votre domaine?</label><br />
+          <input type="radio" name="info" value="par passion" /><label>C'est un loisir</label> <br />
+          <input type="radio" name="info" value="C'est mon domaine de travail " /><label>C'est mon domaine de travail</label> <br /> 
+        <label> Avez-vous déja essayé de créer un site web:</label><br />
+          <input type="radio" name="site" value="oui" /><label>oui</label> <br />
+          <input type="radio"  name="site" value="non" /><label>non</label> <br />  
+        <label> si oui à l'aide de quel langage informatique?</label><br />
+          <input type="radio" name="langage" value="HTML/CSS" /><label>HTML/CSS</label> <br />
+          <input type="radio"  name="langage" value="Autre langage" /><label>Autre langage</label> <br />  
+      </fieldset><br />
+      <!-- Deuxième groupe de composants-->
+      <fieldset >
+        <legend><b>Que pensez vous de mon site?</b></legend>
+        <textarea name="gouts" cols="50" rows="5"  placeholder="Mettez votre avis/commentaire ici ^^"></textarea>
+      </fieldset>
+      <!-- Troisième groupe de composants-->
+      <fieldset>
+        <legend><b>Avez vous des suggestions pour le rendre plus pérformant?</b></legend>
+        <textarea name="gouts" cols="50" rows="5"  placeholder="Exprimez-vous ici^^"></textarea>
+      </fieldset><br />
+      <!--quatrieme groupe de composants-->
+      <fieldset>
+        <input class="bouton" type="reset" value="Effacer" />
+        &nbsp;&nbsp;&nbsp;<input class="bouton" type="submit" value="Envoyer" />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend><b> cantactez-moi directement par: </b></legend>
+        <div class="left"><img src=" img et video\images.jpg "></div>
+        <div class="right"><a href="  https://mail.google.com/mail/u/0/#inbox/160c8fa96860f0a6"> hn_hebbadj@esi.dz</a></div><br/>
+        
+      </fieldset>
+    </div>
+    </form>
+  </div>    
+  </article>
+  </nav>
+
+	<footer>
+		<p> Copyright 2018 Hebbadj Nesrine -Toute reproduction interdite </p>
+	</footer>
+
+
+</body>
+</html>
+ 
+

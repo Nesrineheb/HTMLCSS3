@@ -1,0 +1,220 @@
+body{
+	 font-family: 'Century Gothic', Calibri , serif ;
+	 font-size: 13px;
+	 margin: 0px;
+	 padding: 0px;	 
+}
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+} 
+header{
+	height: 100px;
+}
+footer{
+	height: 80px;
+	padding-top:30px ;
+	text-align: center ;
+	background-color:  #C5C5C5;
+	border-top: 2px solid #AAA;
+}
+nav{
+	width: 100%;
+	background-color: #000000;
+}
+nav ul {
+	margin: 0px;
+	padding: 0px
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px ;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size:  15px;
+}
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-ind:hover{
+	border-top: 5px solid  	#C0C0C0 ;
+	background-color: rgba( 64,200,130,0.15);
+}
+.menu-pro:hover{
+	border-top: 5px solid #f1dc4f ;
+	background-color: rgba( 241,211,79,0.15);
+}
+.menu-vil:hover{
+	border-top: 5px solid #0070bb ;
+	background-color: rgba( 000,112,192,0.15);
+}
+.menu-con:hover{
+	border-top: 5px solid #e44d26 ;
+	background-color: rgba( 228,77,38,0.15);
+ 
+}
+.menu-cv:hover{
+	border-top: 5px solid #4c8 ;
+	background-color: rgba( 64,200,130,0.15);
+}
+nav li :hover a {
+	padding: 15px 30px 20px 30px;
+}
+@media screen and(max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a {
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a {
+		padding: 5px 10px 10px 10px;
+	}
+}
+
+ section{
+ 	width:100%;
+ 	min-height: 300px;
+ 	padding-bottom: 10px;
+ 	margin-bottom: 10px;
+ }
+ .sec{
+ 	margin: 0px 10%;
+ }
+ .left{
+ 	float: left;
+ 	width: 30%
+ }
+ .right{
+ 	float: left;
+ 	width: 70%
+ }
+.sousleft, .souright{
+ 	width: 50%;
+ 	float: left ;
+ }
+ .sec::after, .exp::after{
+ 	content:"";
+ 	display:table;
+ 	clear: both;
+ }
+ #Presetation{
+ 	border-top: 5px solid  #CD5C5C ;
+ 	background-color: hsla(0, 100%, 50%, 0.3); 
+ }
+ #Parcours{
+ 	border-top: 5px solid  #FF69B4;
+ 	background-color:    hsl( 184, 6%, 81%) ;
+
+ }
+ #competances{
+ 	border-top: 5px solid #FF69B4;
+ 	background-color:   hsl( 184, 6%, 81%) ;
+
+ 
+  
+ }
+ #Géographie{
+ 	border-top: 5px solid #4c8  ;
+ 	background-color: hsl( 145, 61%, 95% );
+ 	 
+
+ }
+ #Histoire{
+ 	border-top: 5px solid  #154360 ;
+ 	background-color:  hsl(   168, 76%, 42% );   
+ 	    
+ }
+#Caracteréstique{
+	border-top: 5px solid   #0B5345   ;
+ 	background-color:  hsl(  168, 76%, 42% );   
+ } 	    
+#sport{
+	border-top: 5px solid   #922B21   ;
+ 	background-color:  hsl(  168, 76%, 37%);
+}
+#Trasport{
+	border-top: 5px solid    #D98880      ;
+ 	background-color:  hsl( 168, 76%, 37%);
+}
+#projets{
+	border-top: 5px solid   #DE0476       ;
+ 	background-color:  rgb(246,209,228);
+}
+.leftexp{
+	width: 45%.
+	float: left;
+}
+.rightexp{
+	width: 50%;
+	float: left;
+	margin-left: 5%;
+}
+.leftexp img{
+	width: 100%;
+	max-width: 400px;
+}
+.vert{
+	border-top: 5px solid #5f6;
+	background-color: rgba(70, 240, 80, 0.15);
+}
+.bleu{
+	border-top: 5px solid #29c;
+	background-color: rgba(30, 152, 212, 0.15);
+}
+.jaune{
+	border-top: 5px solid #f3e241;
+	background-color: rgba(240, 255, 69, 0.15);
+}
+.rouge{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+}
+.form_demo input{
+	display: block;
+	margin-bottom: 0.5px;
+
+}
+.inputbasic{
+	border: 0.5px solid grey;
+	border-radius: 2px;
+	padding: 5px;
+	transition: all 0.5s ease;
+}
+
+.bouton{
+	background-color: lightblue;
+	border: 1px solid gray;
+	padding: 5px;
+	color: black;
+	border-radius: 2px;
+	transition: all 0.5s ease,
+}
+.bouton:hover{
+	background-color: lightblue;
+	color: white;
+	border-radius: 150px;
+}
+ 
+ 
+.tete
+{
+	margin-top: 0%;
+	margin-left: 7%;
+	margin-right: 7%;
+	width:  500px;
+}
